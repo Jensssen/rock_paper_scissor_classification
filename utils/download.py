@@ -44,3 +44,5 @@ def get_list_of_buckets() -> List:
         List of all bucket names
     """
     return [bucket for bucket in s3_resource.buckets.all()]
+
+download_all_files()
