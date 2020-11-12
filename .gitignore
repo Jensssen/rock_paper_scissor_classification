@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+AWS_Lambda_Function/*
+!AWS_Lambda_Function/inference_trigger.py
