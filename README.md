@@ -12,7 +12,7 @@ Paper:
 Scissor:
 ![alt text](https://github.com/Jensssen/rock_paper_scissor_classification/blob/master/dataset/scissor.png)
 
-I tried to record as many variations of my hand in different lightnig conditions and with different backgrounds. However, the data is of course quite biased since it ownly shows my hand :P 
+I tried to record as many variations of my hand in different lightning conditions and with different backgrounds. However, the data is of course quite biased since it ownly shows my hand :P 
 I decided to not share the dataset because I recorded it in my own appartment and do not want to upload my whole appartment to the internet :P 
 However, with the video frame extraction script you can easily and quickly create a similar dataset on your own. The script is located under dataset/video_to_image.py
 
