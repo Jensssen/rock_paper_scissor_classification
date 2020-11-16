@@ -131,6 +131,9 @@ dmypy.json
 AWS_Lambda_Function/*
 !AWS_Lambda_Function/inference_trigger.py
 .idea
-dataset
+dataset/*
+!dataset/rock.png
+!dataset/paper.png
+!dataset/scissor.png
 deploy
 log
