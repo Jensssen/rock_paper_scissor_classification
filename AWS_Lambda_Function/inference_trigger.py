@@ -1,3 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+
+This file contains the Lambda function, that is uploaded to AWS-Lambda. 
+It is triggered on every image upload and calls the AWS Sagemaker Endpoint on the uploaded image.
+Finally it saves the prediction result on s3
+
+In order to use this script, you have to add all dependencys to this folder before you zip it
+Dependencies are numpy and pillow
+
+File:
+    inference_trigger.py
+ 
+Authors: soe
+Date:
+    15.09.20
+
+"""
+
 import boto3
 import numpy as np
 from PIL import Image

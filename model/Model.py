@@ -4,7 +4,7 @@
 File:
     Model.py
  
-Authors: umla, soe
+Authors: soe
 Date:
     26.09.20
 

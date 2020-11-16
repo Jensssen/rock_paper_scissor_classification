@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 """
- 
+
+This script can be used to train a custom model on a locally saved dataset. 
+However, this script is not used for the final model. The main reason for this is 
+that due to the small amount of training data, I was not able to achieve good results on 
+the validation data. Instead, the model overfitted quite drastically. 
+This was the main reason why I switched to a fine tuning approach of mobile Net which can be found inside of the jupyther notebook.
+
 File:
     train.py
  
@@ -86,7 +92,7 @@ ds_test = test_generator.flow_from_directory(directory='dataset/rock_paper_sciss
                                              subset="validation")
 
 train_image = cv2.imread(ds_train.filepaths[0])
-print(train_image.shape)
+
 
 model = Model_Class(num_class=3,
                     input_dim=(img_height, img_width, 3),
